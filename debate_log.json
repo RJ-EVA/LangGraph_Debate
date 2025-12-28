@@ -1,0 +1,65 @@
+{"timestamp": 1766856128.8687065, "event_type": "start", "data": {"topic": "Should AI be regulated like medicine?"}}
+{"timestamp": 1766856128.870679, "event_type": "turn", "data": {"round": 1, "agent": "AgentA", "text": "AgentA argues about 'Should AI be regulated like medicine?' from their perspective."}}
+{"timestamp": 1766856128.8716784, "event_type": "turn", "data": {"round": 2, "agent": "AgentB", "text": "AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.872708, "event_type": "turn", "data": {"round": 3, "agent": "AgentA", "text": "AgentA adds a new supporting point on 'Should AI be regulated like medicine?'. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.8746886, "event_type": "turn", "data": {"round": 4, "agent": "AgentB", "text": "AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.876691, "event_type": "turn", "data": {"round": 5, "agent": "AgentA", "text": "AgentA adds a new supporting point on 'Should AI be regulated like medicine?'. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.8796833, "event_type": "turn", "data": {"round": 6, "agent": "AgentB", "text": "AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.8816779, "event_type": "turn", "data": {"round": 7, "agent": "AgentA", "text": "AgentA adds a new supporting point on 'Should AI be regulated like medicine?'. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.8826797, "event_type": "turn", "data": {"round": 8, "agent": "AgentB", "text": "AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point."}}
+{"timestamp": 1766856128.8846798, "event_type": "judge_verdict", "data": {"summary": "Round 1 - AgentA: AgentA argues about 'Should AI be regulated like medicine?' from their perspective.\nRound 2 - AgentB: AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point.\nRound 3 - AgentA: AgentA adds a new supporting point on 'Should AI be regulated like medicine?'. Responding to the opponent's previous point.\nRound 4 - AgentB: AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point.\nRound 5 - AgentA: AgentA adds a new supporting point on 'Should AI be regulated like medicine?'. Responding to the opponent's previous point.\nRound 6 - AgentB: AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point.\nRound 7 - AgentA: AgentA adds a new supporting point on 'Should AI be regulated like medicine?'. Responding to the opponent's previous point.\nRound 8 - AgentB: AgentB argues about 'Should AI be regulated like medicine?' from their perspective. Responding to the opponent's previous point.", "winner": "AgentB", "reason": "Demonstrated stronger philosophical reasoning."}}
+{"timestamp": 1766858412.645237, "event_type": "node_start", "data": {"node": "UserInput"}}
+{"timestamp": 1766858480.0743854, "event_type": "node_end", "data": {"node": "UserInput", "next_node": "Controller", "round": 0}}
+{"timestamp": 1766858480.0763612, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.0773563, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentA", "round": 0}}
+{"timestamp": 1766858480.079356, "event_type": "node_start", "data": {"node": "AgentA"}}
+{"timestamp": 1766858480.0803823, "event_type": "node_end", "data": {"node": "AgentA", "next_node": "Memory", "round": 1}}
+{"timestamp": 1766858480.0813847, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.083359, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 1}}
+{"timestamp": 1766858480.0843847, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.086387, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentB", "round": 1}}
+{"timestamp": 1766858480.0873868, "event_type": "node_start", "data": {"node": "AgentB"}}
+{"timestamp": 1766858480.0883834, "event_type": "node_end", "data": {"node": "AgentB", "next_node": "Memory", "round": 2}}
+{"timestamp": 1766858480.0893853, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.0913658, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 2}}
+{"timestamp": 1766858480.0923865, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.0933833, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentA", "round": 2}}
+{"timestamp": 1766858480.0943725, "event_type": "node_start", "data": {"node": "AgentA"}}
+{"timestamp": 1766858480.0973556, "event_type": "node_end", "data": {"node": "AgentA", "next_node": "Memory", "round": 3}}
+{"timestamp": 1766858480.0983818, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.1003644, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 3}}
+{"timestamp": 1766858480.1013865, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.102383, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentB", "round": 3}}
+{"timestamp": 1766858480.1033578, "event_type": "node_start", "data": {"node": "AgentB"}}
+{"timestamp": 1766858480.1043828, "event_type": "node_end", "data": {"node": "AgentB", "next_node": "Memory", "round": 4}}
+{"timestamp": 1766858480.105355, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.1073842, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 4}}
+{"timestamp": 1766858480.1083825, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.1103585, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentA", "round": 4}}
+{"timestamp": 1766858480.111384, "event_type": "node_start", "data": {"node": "AgentA"}}
+{"timestamp": 1766858480.112354, "event_type": "node_end", "data": {"node": "AgentA", "next_node": "Memory", "round": 5}}
+{"timestamp": 1766858480.1133556, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.1153896, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 5}}
+{"timestamp": 1766858480.1153896, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.116352, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentB", "round": 5}}
+{"timestamp": 1766858480.117352, "event_type": "node_start", "data": {"node": "AgentB"}}
+{"timestamp": 1766858480.117352, "event_type": "node_end", "data": {"node": "AgentB", "next_node": "Memory", "round": 6}}
+{"timestamp": 1766858480.118354, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.1193576, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 6}}
+{"timestamp": 1766858480.1193576, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.1203537, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentA", "round": 6}}
+{"timestamp": 1766858480.1203537, "event_type": "node_start", "data": {"node": "AgentA"}}
+{"timestamp": 1766858480.1213832, "event_type": "node_end", "data": {"node": "AgentA", "next_node": "Memory", "round": 7}}
+{"timestamp": 1766858480.1223788, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.1233535, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 7}}
+{"timestamp": 1766858480.1233535, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.124353, "event_type": "node_end", "data": {"node": "Controller", "next_node": "AgentB", "round": 7}}
+{"timestamp": 1766858480.124353, "event_type": "node_start", "data": {"node": "AgentB"}}
+{"timestamp": 1766858480.1253521, "event_type": "node_end", "data": {"node": "AgentB", "next_node": "Memory", "round": 8}}
+{"timestamp": 1766858480.1253521, "event_type": "node_start", "data": {"node": "Memory"}}
+{"timestamp": 1766858480.1263626, "event_type": "node_end", "data": {"node": "Memory", "next_node": "Controller", "round": 8}}
+{"timestamp": 1766858480.1273544, "event_type": "node_start", "data": {"node": "Controller"}}
+{"timestamp": 1766858480.128352, "event_type": "node_end", "data": {"node": "Controller", "next_node": "Judge", "round": 8}}
+{"timestamp": 1766858480.129353, "event_type": "node_start", "data": {"node": "Judge"}}
+{"timestamp": 1766858480.1423507, "event_type": "node_end", "data": {"node": "Judge", "next_node": "END", "round": 8}}
+{"timestamp": 1766858480.1433504, "event_type": "dag_complete", "data": {"message": "Execution finished"}}
