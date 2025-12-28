@@ -1,0 +1,24 @@
+// Multi-Agent Debate DAG
+digraph {
+	UserInput [label="UserInputNode
+(CLI Topic Input)"]
+	Controller [label="ControllerNode
+(Round & Turn Router)"]
+	AgentA [label="AgentA
+(Scientist)"]
+	AgentB [label="AgentB
+(Philosopher)"]
+	Memory [label="MemoryNode
+(Commit + Log)"]
+	Judge [label="JudgeNode
+(Evaluation)"]
+	END [label=END]
+	UserInput -> Controller
+	Controller -> AgentA [label="Odd Round"]
+	Controller -> AgentB [label="Even Round"]
+	AgentA -> Memory
+	AgentB -> Memory
+	Memory -> Controller
+	Controller -> Judge [label="After 8 Rounds"]
+	Judge -> END
+}
